@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class GoogleTest {
 	@Test
 	public void validate_google_search_bar() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "c:/apps/drivers/win/chromedriver.exe");
+		System.setProperty("webdriver.opera.driver", "c:/apps/drivers/win/geckodriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
 		driver.navigate().to("https://www.google.com/");
